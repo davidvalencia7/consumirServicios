@@ -1,0 +1,16 @@
+{
+  "users" : [
+    {"id":1, "name": "David", "username" : "Deivid", "email" : "david.valencia7@hotmail.com", "image":"https://i.ibb.co/ZH7356D/cody.jpg" },
+    {"id":2, "name": "Juan", "username" : "Pancho", "email" : "juan@hotmail.com", "image":"https://i.ibb.co/ZH7356D/cody.jpg" },
+    {"id":3, "name": "Robert", "username" : "Robert", "email" : "robert@hotmail.com", "image":"https://i.ibb.co/ZH7356D/cody.jpg" },
+  ],
+  "posts": [
+    { "id": 1, "title": "¿Porque adoptar animales", "body": "son amigables", "userId":1 },
+    { "id": 2, "title": "Que pienso del calentamiento global", "body":"deberiamos de hacer algo con el problema", "userId":2 },
+    { "id": 3, "title": "Como crear tu propia empresa?", "body":"estudio de mercado", "userId":3 },
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ]
+}
